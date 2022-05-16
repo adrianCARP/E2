@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+* {
+    margin:  0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.log {
+    height: 120px;
+
+}
+
+body {
+    font-family: regular, sans-serif;
+}
+header {
+    background: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    
+}
+.nav-list {
+    display: flex;
+    gap: 120px;
+    list-style: none;
+    color: rgb(13, 2, 2);
+}
+.nav-item {
+    background: greenyellow;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.a:hover {
+    background: 1e1e1e ;
+    color: aliceblue;
+}
